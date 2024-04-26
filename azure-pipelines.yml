@@ -1,0 +1,6 @@
+- task: Jacked@1
+  inputs:
+    scanType: 'image'
+    scanName: 'ubuntu:latest'
+    failCriteria: 'medium'
+    skipBuildFail: 'false'
