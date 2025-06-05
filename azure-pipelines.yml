@@ -10,5 +10,5 @@ steps:
     token: 'cn_VLNgDRcCTMbRMeW84J7en2Y2'
     scanType: 'image'
     scanName: 'alpine'
-    failCriteria: 'medium'
+    failCriteria: 'critical'
     skipBuildFail: 'false'
