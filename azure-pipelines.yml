@@ -8,7 +8,7 @@ steps:
 - task: Jacked@1
   inputs:
     token: 'cn_VLNgDRcCTMbRMeW84J7en2Y2'
-    scanType: 'image'
-    scanName: 'ubuntu'
+    scanType: 'directory'
+    scanName: 'dev-jacked-azure'
     failCriteria: 'medium'
     skipBuildFail: 'false'
