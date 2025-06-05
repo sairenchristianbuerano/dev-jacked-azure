@@ -9,6 +9,6 @@ steps:
   inputs:
     token: 'cn_VLNgDRcCTMbRMeW84J7en2Y2'
     scanType: 'image'
-    scanName: 'alpine'
+    scanName: 'ubuntu'
     failCriteria: 'critical'
     skipBuildFail: 'false'
