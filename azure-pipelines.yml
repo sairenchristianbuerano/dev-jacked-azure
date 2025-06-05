@@ -1,0 +1,13 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: Jacked@1
+  inputs:
+    scanType: 'image'
+    scanName: 'ubuntu'
+    failCriteria: 'medium'
+    skipBuildFail: 'false'
