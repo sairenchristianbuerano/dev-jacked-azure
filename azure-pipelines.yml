@@ -8,7 +8,7 @@ steps:
 - task: Jacked@1
   inputs:
     token: 'cn_VLNgDRcCTMbRMeW84J7en2Y2'
-    scanType: 'directory'
-    scanName: 'dev-jacked-azure'
+    scanType: 'image'
+    scanName: 'alpine'
     failCriteria: 'medium'
     skipBuildFail: 'false'
